@@ -1,0 +1,56 @@
+{
+  "name": "banner-maker",
+  "version": "0.0.1",
+  "description": "Banner Maker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint:fix": "eslint --ext .js, .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarkinucerler/banner-maker.git"
+  },
+  "keywords": [
+    "Banner",
+    "Banner-Maker",
+    "BannerMaker"
+  ],
+  "author": "Yarkın ÜÇERLER <yarkinucerler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yarkinucerler/banner-maker/issues"
+  },
+  "homepage": "https://github.com/yarkinucerler/banner-maker#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@types/jest": "^25.1.4",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^3.0.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.0.1",
+    "jest": "^25.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "ts-jest": "^25.2.1",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "url-loader": "^4.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
